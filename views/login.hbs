@@ -1,0 +1,43 @@
+    <!-- Google fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'/>
+
+    <!-- style css -->
+    <link href="/css/style.css" rel="stylesheet" type="text/css"/>
+
+    <!-- form css -->
+    <link href="/css/form.css" rel="stylesheet" />
+
+    <!-- client side js-->
+     <script src="/js/loginjs.js"></script>
+
+<div id="frame_login">
+
+
+    <p id="image_logo"><img class="pic" src="/images/logo1.png"/></p>
+
+
+    			<div class="form-area">
+
+                         <a href="/login/logout">Already login? I want to log out. </a>
+
+    					<header >
+    						<h1>Login</h1>
+    						<p>Join us to share your photos</p>
+    					</header>
+
+    					<form id="form_login" method="post" action="/login/submitlogin">
+    					    <p><label class="label_input">Email address</label></p>
+    						<input type="email" id="emailAdd" class="text_field" name="email" placeholder="Enter email" />
+                            <span id="emailAddSpan"></span>
+
+    						 <p><label class="label_input">password</label></p>
+    					     <input type="password" id="password" class="text_field" name="password" placeholder="Enter password"/>
+                             <span id="passwordSpan"></span>
+
+    				        <p><button id="btn_login" type="submit" class="btn" >Login</button></p>
+    					</form>
+
+
+    			</div>
+
+</div>

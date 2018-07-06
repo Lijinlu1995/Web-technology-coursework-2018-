@@ -1,0 +1,103 @@
+body {
+color:#000000;
+font:300 15px/15px Roboto,Arial,Helvetica;
+background-color:#FFFFFF;
+margin:3em 3em;
+}
+
+/*picture*/
+.pic{
+    margin-left: auto;
+    margin-right:auto;
+    display:block;
+}
+
+
+
+/*button*/
+.btn{border:none;padding: 1em 4em;text-transform: uppercase;}
+.btn{color:#000000;background:#FF8C00;width: 30%;outline: none;}
+.btn:hover,.btn:active,.btn:focus{background:#FFA500;box-shadow: none;}
+
+a{
+color:#00a9c6;
+text-decoration:none;}
+
+a:hover{color:#666;}
+
+.btn,a,.btn:hover,a:hover {
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-ms-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+outline: none !important;
+}
+
+h1,h2,h3,h4{margin: 0;line-height: 1em;}
+h1{font:700 5em Roboto,Arial,Helvetica;margin:0.25em 0;text-transform: uppercase;}
+h2{font:300 2.5em Roboto,Arial,Helvetica;margin-bottom: 1.5em;}
+h3{font:300 2em Roboto,Arial,Helvetica;margin:2em 0 1em 0;}
+h4{font:300 1.5em Roboto,Arial,Helvetica;margin-bottom: 1em;}
+
+
+p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
+
+
+/*album*/
+#album{
+padding-top:4em;
+}
+#album figcaption
+a{
+border:1px solid #fff;
+margin-top: 1em;
+display: inline-block;
+color: #fff;
+padding: 0 2em;}
+#album.figcaption
+a:hover{
+text-decoration: none;
+padding: 0 3em;}
+/*album*/
+
+/*about*/
+#introduce{
+	text-align: center;
+}
+#introduce .introduce > img {
+    border-radius: 100%;
+    margin-bottom: 15px;
+}
+#introduce .introduce {
+	padding: 25px;
+}
+/*about*/
+
+/*contact*/
+#contact{
+position:static;
+background-color: #f5f5f5;
+text-align: center;
+padding:3em;
+margin:3em ;
+}
+.contactform textarea,.contactform input{
+width: 60%;
+display: inline-block;
+padding:1em;
+border:0.2em solid #ccc;
+margin: 1em;
+outline: none;
+}
+/*contact*/
+
+/*comments*/
+#comments{
+background-color: #f5f5f5;
+text-align: center;
+padding:3em;
+margin:3em;
+}
+/*comments*/
+

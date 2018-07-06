@@ -1,0 +1,46 @@
+    <!-- Google fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'/>
+
+    <!-- style css -->
+    <link href="/css/style.css" rel="stylesheet" type="text/css"/>
+
+    <!-- form css -->
+    <link href="/css/form.css" rel="stylesheet" />
+
+<div id="frame_signup">
+
+    <p id="image_logo"><img class="pic" src="images/logo1.png"/></p>
+
+    <div class="form-area">
+
+    	<header>
+    		<h1>Sign up</h1>
+    		<p>Join us to share your photos</p>
+    	</header>
+
+        <form id="form_signup" method="post" onsubmit="return checkForm()" action="/signup/submitsignup">
+
+            	<p><label class="label_input">Email address</label></p>
+            	<input type="email" id="emailAdd" name="email" placeholder="Enter email" />
+
+            	<p><label class="label_input">User name</label></p>
+                <input type="text" id="inputUserName" name="userName" placeholder="UserName"
+                                          onBlur="javascript:checkUserName()"/>
+
+                 <p><label class="label_input">password</label></p>
+                 <input type="password" id="inputPassword" name="password"
+                                           onBlur="javascript:emptyPop()"
+                                           placeholder="Password(6-12 characters)"/>
+
+                <p><label class="label_input">Repeat password</label></p>
+                <input type="password" id="inputRePassword" name="rePassword"
+                                          onBlur="javascript:emptyPop()"
+                                          placeholder="Repeat your password" />
+
+                <p><button type="submit" class="btn"  id="submitFormBtn">Sign up</button></p>
+    </form>
+    <br></br>
+
+
+
+</div>
